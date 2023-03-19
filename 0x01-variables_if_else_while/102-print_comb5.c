@@ -17,12 +17,13 @@ int main(void)
 			putchar(' ');
 			putchar(x / 10 + '0');
 			putchar(x % 10 + '0');
-			if (c != 99 || x != 99)
+			if (c != 98)
 			{
 				putchar(',');
 				putchar(' ');
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
