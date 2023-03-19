@@ -6,10 +6,12 @@
  */
 int main(void)
 {
-	int c,v;
-	for (c='0'; c<='9'; c++)
+	int c, v;
+
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (v = c + 1; v <= '9'; v++){
+		for (v = c + 1; v <= '9'; v++)
+		{
 			putchar(c);
 			putchar(v);
 			if (c != '8')
@@ -20,5 +22,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }

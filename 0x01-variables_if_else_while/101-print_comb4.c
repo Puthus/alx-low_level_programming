@@ -6,11 +6,13 @@
  */
 int main(void)
 {
-	int c,v,x;
-	for (c='0'; c<='9'; c++)
+	int c, v, x;
+
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (v = c + 1; v <= '9'; v++){
-			for (x = v +1; x<='9'; x++)
+		for (v = c + 1; v <= '9'; v++)
+		{
+			for (x = v + 1; x <= '9'; x++)
 			{
 				putchar(c);
 				putchar(v);
@@ -24,5 +26,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }

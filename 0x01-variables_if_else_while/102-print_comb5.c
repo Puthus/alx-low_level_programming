@@ -4,20 +4,25 @@
  * Description: Print all possible different combinations of three digits.
  * Return: Always 0 (success)
  */
-int main() {
-	int i, j;
-	for (i = 0; i <= 99; i++) {
-		for (j = i; j <= 99; j++) {
-			putchar(i / 10 + '0');
-			putchar(i % 10 + '0');
+int main(void)
+{
+	int c, x;
+
+	for (c = 0; c <= 99; c++)
+	{
+		for (x = c; x <= 99; x++)
+		{
+			putchar(c / 10 + '0');
+			putchar(c % 10 + '0');
 			putchar(' ');
-			putchar(j / 10 + '0');
-			putchar(j % 10 + '0');
-			if (i != 99 || j != 99) {
+			putchar(x / 10 + '0');
+			putchar(x % 10 + '0');
+			if (c != 99 || x != 99)
+			{
 				putchar(',');
 				putchar(' ');
 			}
 		}
 	}
-	return 0;
+	return (0);
 }
