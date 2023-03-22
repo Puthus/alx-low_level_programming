@@ -13,9 +13,9 @@
 int main(void)
 {
 	int i;
-	long int a = 1, b = 2, c, sum = 2;
+	long int a = 1, b = 2, c = 3, sum = 2;
 
-	for (i = 0; i < 48; i++)
+	for (i = 0; c < 4000000; i++)
 	{
 		c = a + b;
 		a = b;
