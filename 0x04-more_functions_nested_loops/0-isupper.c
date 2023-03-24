@@ -5,6 +5,7 @@
  *
  * Return: On success 1 if upper and 0 if lower
  */
+
 int _isupper(int c)
 {
 	return (c >= 'A' && c <= 'Z');
