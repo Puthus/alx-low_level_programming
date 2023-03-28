@@ -12,13 +12,12 @@
 
 int main(void)
 {
-	srand(time(NULL));
-
 	char password[PASSWORD_LENGTH + 1] = {0};
 	int total = 0;
-	int i = 0;
+	int i = 0, j = 0, k = 0;
 	int iterations = 0;
 
+	srand(time(NULL));
 	while (total != 2772)
 	{
 		while (total < 2772)
@@ -28,9 +27,9 @@ int main(void)
 			i++;
 		}
 		if (total - 2772 > 0 && total - 2772 < 95)
-			for (int j = 0; j < i; j++)
+			for (j = 0; j < i; j++)
 			{
-				for (int k = 32; k < 127; k++)
+				for (k = 32; k < 127; k++)
 				{
 					if (password[j] - k == total - 2772)
 					{
