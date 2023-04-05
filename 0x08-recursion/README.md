@@ -7,3 +7,6 @@ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 mains/3-main.c 3-factorial.c -o b
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 mains/4-main.c 4-pow_recursion.c -o bin/4-pow
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 mains/5-main.c 5-sqrt_recursion.c -o bin/5-sqrt
 gcc -Wall -pedantic -Werror -Wextra -std=gnu89 mains/6-main.c 6-is_prime_number.c -o bin/6-prime
+
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 mains/100-main.c 100-is_palindrome.c -o bin/100-palindrome
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 mains/101-main.c 101-wildcmp.c -o bin/101-wildcmp
